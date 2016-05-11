@@ -23,8 +23,8 @@ $ sudo cp bartender.sh /usr/local/bin/bartender.sh
 bartender.sh takes one mandatory argument which is the name of the project you want to create that can be preceded with optional flags to specify any additional libraries to include. The bourbon library is always included by default because it's a dependency for the other libraries
 
 ##### flags
-**-n** : include the [neat]() library
-**-b** : include the [bitters]() library
+**-n** : include the [neat]() library <br />
+**-b** : include the [bitters]() library <br />
 **no flags** : just use default bourbon
 
 Eg : project called **testProject** that uses bourbon , neat and bitters
